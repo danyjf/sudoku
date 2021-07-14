@@ -1,0 +1,91 @@
+.game-container {
+    text-align: center;
+}
+
+#game-wrapper {
+    margin: auto;
+    width: 900px;
+}
+
+#game-frame {
+    margin-top: 50px;
+    border-width: 3px 0px 0px 3px;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    float: left;
+}
+
+#game-controls {
+    margin-top: 50px;
+    width: 100px;
+    float: left;
+    padding: 0px;
+}
+
+.cell-group {
+    border-width: 0px 2px 2px 0px;
+    border-style: solid;
+    border-color: black;
+    height: 33.3333%;
+    width: 33.3333%;
+    float: left;
+}
+
+.cell {
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    height: 33.3333%;
+    width: 33.3333%;
+    float: left;
+    position: relative;
+}
+
+.cell:hover {
+    cursor: pointer;
+}
+
+.new-game-btn {
+    width: 100%;
+    height: 50px;
+}
+
+.cell-value {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+#num-pad {
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    padding: 0;
+}
+
+.num-pad-row {
+    width: 100%;
+}
+
+.num-pad-num {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    height: 100px;
+    width: 100%;
+}
+
+.num-pad-num:hover {
+    cursor: pointer;
+    background-color: #c2fffe;
+}
+
+.num-pad-num-value {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
